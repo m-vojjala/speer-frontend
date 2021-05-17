@@ -1,0 +1,30 @@
+.text{
+ position:absolute;
+ margin-top:20vh;
+ color:white;
+ clear: both;
+ align-items: center;
+ overflow: hidden;
+ white-space: nowrap;
+ font-size: 3rem;
+  display: block;
+  margin-top:20vh;
+  text-align: center;
+  display: inline-block;
+  transform: translate(-50%,-50%);
+
+}
+.subtext{
+  position:absolute;
+  color:white;
+  font-size: 2rem;
+  text-align: center;
+  letter-spacing: 1px;
+  margin-top:30vh;
+  margin-left:auto;
+  margin-right:auto;
+  width:40%;
+  display: inline-block;
+  transform: translate(-50%,-50%);
+  
+}
