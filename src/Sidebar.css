@@ -1,0 +1,74 @@
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
+}
+.bm-burger-button::after{
+  content: "EXPO|CON" !important; /* Add text before hamburger icon. */
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  color: white;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 425%;
+  top:17px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: white;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #708090;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+  right:20% !important;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+.bm-menu {
+  background: black;
+  padding: 2.5em 1.5em 0;
+  font-size: 2rem;
+   border-bottom-left-radius: 80%;   
+  border-bottom-right-radius: 80%; 
+  border-top-right-radius:60%; 
+ height: 50% !important;
+ overflow: hidden  !important;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: black;
+}
+
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+  color: #d1d1d1;
+  margin-bottom: 20px;
+  text-align: left;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.bm-item:hover {
+  color: #ffffff;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+
+}

@@ -1,0 +1,42 @@
+.red{
+  background-color:#CD5555;
+  height: 100vh;
+  margin-top: -45px;
+  margin-left: -20px;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; */
+}
+.head{
+  font-size: 4rem;
+  /* transform: translate(-50%,-50%);  */
+  color: white;
+  padding-top: 20%;
+  text-align: left;
+  padding-left: 10%;
+}
+.button-demo{
+  color:#CD5555;
+  background-color:white;
+  width:12%;
+  height:8%;
+  border-radius:30px;
+  font-size:1.25rem;
+  right:28%;
+  
+}
+.image{
+ border-radius:30%;
+ width:15%;
+ mix-blend-mode: darken;
+}
+
+
+.child{
+  font-size: 3rem;
+  text-align: left;
+  padding-left: 10%;
+  width:30%;
+  letter-spacing: 1px;
+
+}

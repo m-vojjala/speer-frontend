@@ -1,13 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
 import Slider from './Slider';
-import Button from './Button';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Pricing from "./Pricing"
+import Sidebar from './Sidebar';
 
 function App() {
   return (
     <div className="App">
-       <Slider />
-       {/* <Button /> */}
+      <Sidebar />
+        <Router>
+          <Switch>
+          <Route path="/" exact component={Slider} />
+          <Route path="/pricing" component={Pricing} />
+       </Switch>
+     </Router>
     </div>
   );
 }
