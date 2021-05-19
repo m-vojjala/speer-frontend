@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <Sidebar />
       {/* react router */}
-      <HashRouter>
+      <HashRouter basename={process.env.PUBLIC_URL}>
         <Switch>
           <Route path="/" exact component={Slider} />
           <Route path="/pricing" component={Pricing} />
