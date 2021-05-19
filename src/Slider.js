@@ -1,7 +1,7 @@
 
 import { Gallery, GalleryImage } from "react-gesture-gallery";
 import Button from './Button'
-import { useState, useEffect } from "react";
+import { useState} from "react";
 import ImageText from "./ImageText";
 import Red from "./Red";
 import Footer from "./Footer";
