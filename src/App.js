@@ -3,6 +3,7 @@ import Slider from './Slider';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Pricing from "./Pricing"
 import Sidebar from './Sidebar';
+import Perks from './Perks';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Switch>
           <Route path="/" exact component={Slider} />
           <Route path="/pricing" component={Pricing} />
+          <Route path="/perks" component={Perks} />
         </Switch>
       </Router>
     </div>

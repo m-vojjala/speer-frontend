@@ -7,7 +7,7 @@ export default function Sidebar() {
       <h1>EXPO|CON</h1>
       <a id="home" className="menu-item" href="/"><strong>WHAT IS IT</strong></a>
       <a id="pricing" className="menu-item" href="/pricing"><strong>PRICING</strong></a>
-      <a id="pricing" className="menu-item" href="/pricing"><strong>PERKS</strong></a>
+      <a id="pricing" className="menu-item" href="/perks"><strong>PERKS</strong></a>
     </Menu>
   );
 }
