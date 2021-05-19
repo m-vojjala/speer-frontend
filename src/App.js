@@ -1,6 +1,6 @@
 import './App.css';
 import Slider from './Slider';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter, Switch, Route } from "react-router-dom";
 import Pricing from "./Pricing"
 import Sidebar from './Sidebar';
 
@@ -9,12 +9,12 @@ function App() {
     <div className="App">
       <Sidebar />
       {/* react router */}
-      <Router>
+      <HashRouter>
         <Switch>
           <Route path="/" exact component={Slider} />
           <Route path="/pricing" component={Pricing} />
         </Switch>
-      </Router>
+      </HashRouter>
     </div>
   );
 }
