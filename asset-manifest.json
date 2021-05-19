@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/speer-frontend/static/css/main.02a8f4da.chunk.css",
-    "main.js": "/speer-frontend/static/js/main.8eea483e.chunk.js",
-    "main.js.map": "/speer-frontend/static/js/main.8eea483e.chunk.js.map",
+    "main.js": "/speer-frontend/static/js/main.e2bc6d20.chunk.js",
+    "main.js.map": "/speer-frontend/static/js/main.e2bc6d20.chunk.js.map",
     "runtime-main.js": "/speer-frontend/static/js/runtime-main.4c1867b3.js",
     "runtime-main.js.map": "/speer-frontend/static/js/runtime-main.4c1867b3.js.map",
     "static/js/2.eac5cf7a.chunk.js": "/speer-frontend/static/js/2.eac5cf7a.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.4c1867b3.js",
     "static/js/2.eac5cf7a.chunk.js",
     "static/css/main.02a8f4da.chunk.css",
-    "static/js/main.8eea483e.chunk.js"
+    "static/js/main.e2bc6d20.chunk.js"
   ]
 }
