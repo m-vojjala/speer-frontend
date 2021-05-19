@@ -1,0 +1,24 @@
+.footer-head{
+  height:35vh;
+  background-color:#5D53A3;
+  color:white;
+}
+.support-text{
+  font-size: 1.5rem;
+  margin-top: 5%;
+  margin-left: 1%;
+}
+.mail-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  margin-left: 10%;
+  letter-spacing: 1px;
+}
+.exp{
+  font-size: 2rem;
+}
+.speer{
+  font-size: 1.25rem;
+  letter-spacing: 1px;
+}

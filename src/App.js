@@ -8,12 +8,13 @@ function App() {
   return (
     <div className="App">
       <Sidebar />
-        <Router>
-          <Switch>
+      {/* react router */}
+      <Router>
+        <Switch>
           <Route path="/" exact component={Slider} />
           <Route path="/pricing" component={Pricing} />
-       </Switch>
-     </Router>
+        </Switch>
+      </Router>
     </div>
   );
 }

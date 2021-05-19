@@ -1,0 +1,35 @@
+.pricing-div{
+  background-color:black ;
+  color: white;
+  margin-top: none;
+  height: 100vh;
+  overflow: hidden;
+  text-align: left;
+
+}
+.head-text{
+  font-size: 3.75rem;
+  text-align: left;
+  position: absolute;
+  top:10%;
+  left: 0;
+  width: 100%;
+  margin-left: 10%;
+}
+.btn:hover{
+  background-image: linear-gradient(to right, #6253e1, #852D91, #A3A1FF, #F24645);
+  box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+}
+.sub-text{
+  font-size: 2.5rem;
+ text-align: left;
+ position: absolute;
+ top:20%;
+  left: 0;
+  width: 60%;
+ margin-left: 10%;
+ 
+} 
+.MuiContainer-maxWidthMd{
+  margin-top: 15% !important;
+}

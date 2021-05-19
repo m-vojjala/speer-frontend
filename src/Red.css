@@ -3,18 +3,16 @@
   height: 100vh;
   margin-top: -45px;
   margin-left: -20px;
-  /* display: flex;
-  flex-direction: row;
-  justify-content: space-evenly; */
+  
 }
 .head{
   font-size: 4rem;
-  /* transform: translate(-50%,-50%);  */
   color: white;
   padding-top: 20%;
   text-align: left;
   padding-left: 10%;
 }
+
 .button-demo{
   color:#CD5555;
   background-color:white;
@@ -24,6 +22,18 @@
   font-size:1.25rem;
   right:28%;
   
+}
+.button-demo:hover{
+  background-image: linear-gradient(to right, #6253e1, #852D91, #A3A1FF, #F24645);
+  box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75); 
+  transform: scale(1.2);
+  color: white;
+}
+.btn:hover{
+  background-image: linear-gradient(to right, #6253e1, #852D91, #A3A1FF, #F24645);
+  box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75); 
+  transform: scale(1.2);
+  color: white;
 }
 .image{
  border-radius:30%;
@@ -38,5 +48,28 @@
   padding-left: 10%;
   width:30%;
   letter-spacing: 1px;
-
+}
+ .cursor{
+  border-radius: 50%;
+  height: 5rem;
+  width: 5rem;
+  border: 2px solid black;
+  background-color: white;
+  pointer-events: none;
+  position: absolute;
+  mix-blend-mode: difference;
+  transform: translate(-50%,-50%);
+  transition: all 0.3s ease;
+   transition-property: background,transform; 
+  transform-origin: 100% 100%;
+   backdrop-filter:blur(3px); 
+   }  
+    
+   .speaker-div{
+    left:20%;
+    bottom:40%;
+    position:relative;
+   }
+.speaker-div:hover{
+  transform: scale(1.1);
 }
