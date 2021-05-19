@@ -5,16 +5,16 @@
   left: 36px;
   top: 36px;
 }
-.bm-burger-button::after{
-  content: "EXPO|CON" !important; /* Add text before hamburger icon. */
+.bm-burger-button::before{
+  content: "EXP|CON" !important; 
   text-transform: uppercase;
   font-size: 2.5rem;
   color: white;
-  transform: translate(-50%, -50%);
-  position: absolute;
-  left: 425%;
-  top:17px;
+  transform: translate(20%, -20%);
+ position: absolute; 
+ transition: top 0.3s;
 }
+
 
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
@@ -71,4 +71,9 @@
 .bm-overlay {
   background: rgba(0, 0, 0, 0.3);
 
+}
+@media screen and(min-height:40vh) and (max-heigth:60vh){
+	.bm-burger-button::before{
+  color:red
+	}
 }
