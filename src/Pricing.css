@@ -1,11 +1,10 @@
 .pricing-div{
   background-color:black ;
   color: white;
-  margin-top: none;
   height: 100vh;
   overflow: hidden;
   text-align: left;
-
+  display: block;
 }
 .head-text{
   font-size: 3.75rem;
@@ -31,5 +30,5 @@
  
 } 
 .MuiContainer-maxWidthMd{
-  margin-top: 15% !important;
+  margin-top: 11.5% !important;
 }

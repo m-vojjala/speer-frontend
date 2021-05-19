@@ -9,7 +9,7 @@ import Typography from '@material-ui/core/Typography';
 const useStyles = makeStyles({
   root: {
     height: '100vh',
-    backgroundColor: '#CD5555'
+    backgroundColor: '#CD5555',
   },
   header: {
     fontSize: '3.5rem',
